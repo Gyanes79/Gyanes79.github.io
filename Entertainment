@@ -1,0 +1,139 @@
+index.html
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FunZone – Entertainment Hub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+    header {
+      background: linear-gradient(135deg, #7c3aed, #ec4899);
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    nav {
+      background: #020617;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 12px 0;
+    }
+    nav a {
+      color: #e5e7eb;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ec4899;
+    }
+    .hero {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      max-width: 600px;
+      margin: auto;
+      color: #cbd5f5;
+    }
+    .sections {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+    .card {
+      background: #020617;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #f472b6;
+    }
+    .card p {
+      color: #cbd5f5;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>  <header>
+    <h1>🎬 FunZone</h1>
+    <p>Your Daily Dose of Entertainment</p>
+  </header>  <nav>
+    <a href="#movies">Movies</a>
+    <a href="#music">Music</a>
+    <a href="#games">Games</a>
+    <a href="#memes">Memes</a>
+    <a href="#privacy">Privacy Policy</a>
+    <a href="#terms">Terms</a>
+  </nav>  <section class="hero">
+    <h2>Welcome to FunZone</h2>
+    <p>Watch, listen, play, and laugh. FunZone brings movies, music, games, and viral content together in one place.</p>
+    <!-- AdSense Header Ad Placeholder -->
+    <div style="margin-top:25px; padding:15px; background:#020617; border:1px dashed #475569;">
+      <p style="color:#94a3b8;">Advertisement Space (AdSense)</p>
+    </div>
+  </section>  <section class="sections"><!-- Blog Post 1 -->
+<div class="card">
+  <h3>🎬 Top 5 Movies to Watch This Week</h3>
+  <p>Looking for something to watch? Here are the top trending movies that are entertaining audiences worldwide.</p>
+  <a href="#" style="color:#38bdf8;">Read more</a>
+</div>
+
+<!-- Blog Post 2 -->
+<div class="card">
+  <h3>🎵 Best Songs Trending Right Now</h3>
+  <p>From pop hits to soulful melodies, explore the songs everyone is listening to this week.</p>
+  <a href="#" style="color:#38bdf8;">Read more</a>
+</div>
+
+<!-- AdSense In-Content Ad Placeholder -->
+<div class="card" style="grid-column:1 / -1; text-align:center; border:1px dashed #475569;">
+  <p style="color:#94a3b8;">Advertisement Space (AdSense)</p>
+</div>
+
+<!-- Blog Post 3 -->
+<div class="card">
+  <h3>🎮 Upcoming Games You Should Try</h3>
+  <p>Exciting new games are coming soon. Check out what gamers are most excited about.</p>
+  <a href="#" style="color:#38bdf8;">Read more</a>
+</div>
+
+<!-- Blog Post 4 -->
+<div class="card">
+  <h3>😂 Memes That Broke the Internet</h3>
+  <p>A collection of the funniest and most viral memes trending across social media.</p>
+  <a href="#" style="color:#38bdf8;">Read more</a>
+</div>
+
+  </section>  <footer>
+    <section id="privacy" style="max-width:700px; margin:auto; padding-bottom:20px;">
+      <h3>Privacy Policy</h3>
+      <p>We use cookies and third‑party advertisements such as Google AdSense. These services may use cookies to display relevant ads.</p>
+    </section>
+    <section id="terms" style="max-width:700px; margin:auto; padding-bottom:20px;">
+      <h3>Terms & Conditions</h3>
+      <p>This website is for entertainment purposes only. All content is provided as‑is without warranties.</p>
+    </section>
+    <p>© 2026 FunZone Entertainment | AdSense Ready</p>
+  </footer></body>
+</html>
